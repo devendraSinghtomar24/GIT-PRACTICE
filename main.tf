@@ -12,4 +12,9 @@ resource "azurerm_resource_group" "rg02" {
     location = "East US"
 }
 
+resource "azurerm_resource_group" "rg02" {
+    name     = "hfcl-dev-04"
+    location = "East US"
+}
+
 # this is for new RG
